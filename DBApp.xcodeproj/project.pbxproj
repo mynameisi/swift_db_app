@@ -15,6 +15,11 @@
 		9266EDB61DF2AFAE0064535B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9266EDB41DF2AFAE0064535B /* LaunchScreen.storyboard */; };
 		9266EDC11DF2AFAE0064535B /* DBAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9266EDC01DF2AFAE0064535B /* DBAppTests.swift */; };
 		9266EDCC1DF2AFAE0064535B /* DBAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9266EDCB1DF2AFAE0064535B /* DBAppUITests.swift */; };
+		9266EDE51DF2B53D0064535B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266EDDC1DF2B53D0064535B /* FMDatabase.m */; };
+		9266EDE61DF2B53D0064535B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266EDDE1DF2B53D0064535B /* FMResultSet.m */; };
+		9266EDE71DF2B53D0064535B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266EDE01DF2B53D0064535B /* FMDatabaseQueue.m */; };
+		9266EDE81DF2B53D0064535B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266EDE21DF2B53D0064535B /* FMDatabaseAdditions.m */; };
+		9266EDE91DF2B53D0064535B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9266EDE41DF2B53D0064535B /* FMDatabasePool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,18 @@
 		9266EDC71DF2AFAE0064535B /* DBAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9266EDCB1DF2AFAE0064535B /* DBAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBAppUITests.swift; sourceTree = "<group>"; };
 		9266EDCD1DF2AFAE0064535B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9266EDD91DF2B53D0064535B /* DBApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		9266EDDA1DF2B53D0064535B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9266EDDB1DF2B53D0064535B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9266EDDC1DF2B53D0064535B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9266EDDD1DF2B53D0064535B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9266EDDE1DF2B53D0064535B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9266EDDF1DF2B53D0064535B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9266EDE01DF2B53D0064535B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9266EDE11DF2B53D0064535B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9266EDE21DF2B53D0064535B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9266EDE31DF2B53D0064535B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9266EDE41DF2B53D0064535B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +116,17 @@
 		9266EDA71DF2AFAE0064535B /* DBApp */ = {
 			isa = PBXGroup;
 			children = (
+				9266EDDA1DF2B53D0064535B /* FMDB.h */,
+				9266EDDB1DF2B53D0064535B /* FMDatabase.h */,
+				9266EDDC1DF2B53D0064535B /* FMDatabase.m */,
+				9266EDDD1DF2B53D0064535B /* FMResultSet.h */,
+				9266EDDE1DF2B53D0064535B /* FMResultSet.m */,
+				9266EDDF1DF2B53D0064535B /* FMDatabaseQueue.h */,
+				9266EDE01DF2B53D0064535B /* FMDatabaseQueue.m */,
+				9266EDE11DF2B53D0064535B /* FMDatabaseAdditions.h */,
+				9266EDE21DF2B53D0064535B /* FMDatabaseAdditions.m */,
+				9266EDE31DF2B53D0064535B /* FMDatabasePool.h */,
+				9266EDE41DF2B53D0064535B /* FMDatabasePool.m */,
 				9266EDA81DF2AFAE0064535B /* AppDelegate.swift */,
 				9266EDAA1DF2AFAE0064535B /* ViewController.swift */,
 				9266EDAC1DF2AFAE0064535B /* Main.storyboard */,
@@ -106,6 +134,7 @@
 				9266EDB41DF2AFAE0064535B /* LaunchScreen.storyboard */,
 				9266EDB71DF2AFAE0064535B /* Info.plist */,
 				9266EDAF1DF2AFAE0064535B /* DBApp.xcdatamodeld */,
+				9266EDD91DF2B53D0064535B /* DBApp-Bridging-Header.h */,
 			);
 			path = DBApp;
 			sourceTree = "<group>";
@@ -262,6 +291,11 @@
 				9266EDAB1DF2AFAE0064535B /* ViewController.swift in Sources */,
 				9266EDA91DF2AFAE0064535B /* AppDelegate.swift in Sources */,
 				9266EDB11DF2AFAE0064535B /* DBApp.xcdatamodeld in Sources */,
+				9266EDE51DF2B53D0064535B /* FMDatabase.m in Sources */,
+				9266EDE61DF2B53D0064535B /* FMResultSet.m in Sources */,
+				9266EDE91DF2B53D0064535B /* FMDatabasePool.m in Sources */,
+				9266EDE81DF2B53D0064535B /* FMDatabaseAdditions.m in Sources */,
+				9266EDE71DF2B53D0064535B /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DBApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wgz.zzdx.zzdx.DBApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DBApp/DBApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -416,10 +453,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DBApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wgz.zzdx.zzdx.DBApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DBApp/DBApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
