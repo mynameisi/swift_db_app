@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DBApp/ViewController.swift"
+            timestampString = "502600186.517598"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBApp.ViewController.name.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "DBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangguozheng/%E5%90%8C%E6%AD%A5%E7%9B%98/%E5%A4%87%E8%AF%BE/XCODE%E5%A4%87%E8%AF%BE/Swift%E6%95%99%E7%A8%8B/XCode%E9%A1%B9%E7%9B%AE/DBApp/DBApp/ViewController.swift"
+                  timestampString = "502600187.933642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBApp.ViewController.name.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "DBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangguozheng/%E5%90%8C%E6%AD%A5%E7%9B%98/%E5%A4%87%E8%AF%BE/XCODE%E5%A4%87%E8%AF%BE/Swift%E6%95%99%E7%A8%8B/XCode%E9%A1%B9%E7%9B%AE/DBApp/DBApp/ViewController.swift"
+                  timestampString = "502600187.942591"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBApp.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; DBApp.ViewController"
+                  moduleName = "DBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangguozheng/%E5%90%8C%E6%AD%A5%E7%9B%98/%E5%A4%87%E8%AF%BE/XCODE%E5%A4%87%E8%AF%BE/Swift%E6%95%99%E7%A8%8B/XCode%E9%A1%B9%E7%9B%AE/DBApp/DBApp/ViewController.swift"
+                  timestampString = "502600187.942767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DBApp.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DBApp.ViewController&gt;"
+                  moduleName = "DBApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangguozheng/%E5%90%8C%E6%AD%A5%E7%9B%98/%E5%A4%87%E8%AF%BE/XCODE%E5%A4%87%E8%AF%BE/Swift%E6%95%99%E7%A8%8B/XCode%E9%A1%B9%E7%9B%AE/DBApp/DBApp/ViewController.swift"
+                  timestampString = "502600187.942935"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
