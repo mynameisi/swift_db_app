@@ -49,12 +49,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //-------我的代码------//
+    //-------所有的界面元素链接------//
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var address: UITextField!
     @IBOutlet weak var phone: UITextField!
     @IBOutlet weak var status: UILabel!
     
+    //-------当用户点击保存的时候---------//
     @IBAction func saveData(sender: AnyObject) {
         let contactDB = FMDatabase(path: databasePath)//链接数据库
         
@@ -81,6 +82,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //---------当用户点击查询的时候-------------//
     @IBAction func findContact(sender: AnyObject) {
         let contactDB = FMDatabase(path: databasePath as String)
         
@@ -91,13 +93,13 @@ class ViewController: UIViewController {
             /* 把查询结果存入set: results */
             let results:FMResultSet? = contactDB?.executeQuery(querySQL, withArgumentsInArray: nil)
             
-            /* 通过next方法获得set的第一个元素 */
+            /* 通过next方法获得set的第一个元素，也就是从数据库中查到的第一个元素 */
             if results?.next() == true {    //如果有，表示有结果，就把结果显示在输入框中
                 address.text = results?.stringForColumn("address")
                 phone.text = results?.stringForColumn("phone")
-                status.text = "Record Found"
+                status.text = "找到数据"
             } else {    //如果没有，就表示没有结果，就显示：没有找到
-                status.text = "Record not found"
+                status.text = "没找到数据"
                 address.text = ""
                 phone.text = ""
             }
